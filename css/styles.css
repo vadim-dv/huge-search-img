@@ -1,0 +1,90 @@
+:root {
+    background: #0E0E0E;
+    font-family: Arial, sans-serif;
+    color: #C2C2C2;
+}
+
+.s-container {
+    background: #F1F1F1;
+    margin: -10px 10% 0 10%;
+    padding: 7%;
+}
+
+input {
+    background: #F1F1F1;
+    border: 0px double black;
+    line-height: 115px;
+    width: 80%; 
+}
+
+button {
+    background: #F1F1F1;
+    border: 0px double black;
+    text-align: right;
+}
+
+#lupa {
+    vertical-align: baseline;
+}
+
+/* Плейсхолдер */
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #C2C2C2;
+    font-size: 26px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #C2C2C2;
+   opacity:  1;
+   font-size: 26px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #C2C2C2;
+   opacity:  1;
+   font-size: 26px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #C2C2C2;
+   font-size: 26px;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #C2C2C2;
+   font-size: 26px;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    #C2C2C2;
+   font-size: 85px;
+   font-weight: bold;
+   vertical-align: middle;
+}
+
+:hover::placeholder { /* Most modern browsers support this now. */
+    color:    #ec5a62;
+ }
+
+.column {
+    width: 30%;
+    
+}
+
+.list-item {
+    background: #EBEBED;
+    padding: 4%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+}
+
+.list-item:hover {
+    background: #E4E4E6;
+    color: #ec5a62;
+}
+
+.list-item img {
+    border-radius: 50%;
+}
+
+.list-text {
+    padding-left: 5%;
+    vertical-align: 80%;
+}
