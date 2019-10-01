@@ -2,12 +2,13 @@
     background: #0E0E0E;
     font-family: Arial, sans-serif;
     color: #C2C2C2;
+    font-size: 14px;
 }
 
 .s-container {
     background: #F1F1F1;
     margin: -10px 10% 0 10%;
-    padding: 7%;
+    padding: 5% 7% 5% 7%;
 }
 
 input {
@@ -63,16 +64,18 @@ button {
  }
 
 .column {
-    width: 30%;
+    width: 31%;
+    display: inline-block;
     
 }
 
 .list-item {
     background: #EBEBED;
-    padding: 4%;
+    padding: 3%;
     margin-right: 5%;
     margin-bottom: 2%;
     border-radius: 5px;
+    height: 50px;
 }
 
 .list-item:hover {
@@ -80,11 +83,25 @@ button {
     color: #ec5a62;
 }
 
+.list-item:hover img {
+    transform: translateX(3px);
+}
+
 .list-item img {
     border-radius: 50%;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 .list-text {
     padding-left: 5%;
-    vertical-align: 80%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 75%;
 }
+
+.list-item .list-item-img-sqr {
+    border-radius: 0;
+}
+
+*{transition: all .1s ease-in;}
